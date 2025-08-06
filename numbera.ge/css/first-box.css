@@ -1,0 +1,42 @@
+.first-box{
+    position: relative;;
+    width: 100%;
+    height:700px;
+    border: 2px solid black;
+    padding-top: 125px;
+  
+ 
+}
+.first-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.freespace-1{
+    left: 0px;
+    position: absolute;
+    top:300px;
+    bottom: 100px;
+    width: 700px;
+    transition-duration: 1s;
+    background-color: white;
+    border: 2px solid black;
+    min-width: 200px;
+}
+
+@media (max-width: 750px){
+    .freespace-1{
+        width: 650px;
+    }
+}
+@media (max-width: 720px){
+    .freespace-1{
+        width: 550px;
+    }
+}
+@media (max-width: 600px){
+    .freespace-1{
+        width: 400px;
+    }
+}
